@@ -1,0 +1,129 @@
+body,html{
+	height: 100%;
+	margin:0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Lato",sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color:#666;
+	overflow-x: hidden;
+}
+h1{
+	font-size: 3rem;
+}
+.ping1,
+.ping2,
+.ping3{
+	position: relative;
+	opacity: 0.70;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;
+
+	background-attachment: fixed;
+}
+.ping1{
+	background-image:url('../img/bg-01.jpeg');
+	background-position: 0% 100%;
+	min-height: 100%;
+	
+}
+.ping2{
+	background-image: url('../img/bg-2.jpg');
+
+	min-height: 500px;
+}
+.ping3{
+	background-image: url('../img/bg-3.jpeg');
+	min-height: 500px;
+	
+}
+.section{
+	text-align: center;
+	padding: 50px 80px;
+	
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+.ptext2{
+	text-align: center;
+	color: #fff;
+	font-size:18px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	opacity: 1;
+
+}
+.ptext{
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	top: 3em;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size:40px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	
+
+}
+.ptext1{
+	
+	position: absolute;
+	top: 3em;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size:40px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+	
+
+}
+
+.ptext1 .subtext{
+	font-size: 15px;
+	letter-spacing: 0px;
+	text-transform: none;
+	letter-spacing: 4px;
+}
+.ptext .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+
+}
+
+.ptext .border .trans{
+	background-color: transparent;
+}
+.container-fluid{
+	padding: 0px;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+   
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.bg-light{
+ background-color: rgba( 248,249,250,0.7)!important;
+}
